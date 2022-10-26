@@ -1,0 +1,43 @@
+<ion-header class="ion-no-border light-bg">
+
+  <ion-toolbar class="light-bg">
+    
+   <ion-buttons slot="start" shape="round">
+    <ion-button>
+      <ion-icon name="person-circle" class="person" ></ion-icon>
+    </ion-button>
+   </ion-buttons>
+
+   <ion-buttons slot="end">
+    <ion-button class="bordered" fill="solid" color="medium" shape="round">
+      <ion-icon name="notifications-outline" color="primary"></ion-icon>
+    </ion-button>
+   </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="light-bg">
+
+  <ion-item lines="none" class="light-bg">
+    <ion-label>
+      <p style="font-size: .8rem;font-weight: 600; letter-spacing: -.015rem;">EVENTS NEAR</p>
+      <h1 style="font-size: 1.5rem;font-weight: 800;">Valenzuela City</h1>
+      <p style="font-size: .8rem;font-weight: 600; letter-spacing: -.015rem;">{{today | date: 'fullDate'}}</p>
+    </ion-label>
+  </ion-item>
+
+<ion-card *ngFor="let item of eventList">
+  <ion-card-header>
+    <ion-card-subtitle>{{item.eventDate}} at {{item.eventTime}}</ion-card-subtitle>
+    <ion-card-title>{{item.eventName}}</ion-card-title>
+  </ion-card-header>
+<ion-card-content>{{item.eventHost}}</ion-card-content>
+</ion-card>
+
+
+</ion-content>
+
+<!-- TO DO: -->
+<!-- Add Subpages on Home => Organizer Page -->
+<!-- Add Login Pages for User and Organizer => Make it the default  -->
+<!-- Add Register subpage on Login -->

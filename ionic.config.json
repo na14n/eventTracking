@@ -1,0 +1,7 @@
+{
+  "name": "midtermsPractical",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
