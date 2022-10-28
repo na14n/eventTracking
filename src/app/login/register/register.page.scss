@@ -1,0 +1,64 @@
+.greetholder{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-content: flex-end;
+}
+.greet{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.greeter{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #939fab;
+}
+
+.greeterer{
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #939fab;
+}
+//Forms part
+
+ion-input{
+    width: 100%;
+    padding-right: 1rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+ion-label{
+    padding: 0.5rem;
+    font-size: 1rem; 
+}
+
+.agree {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.buttonholder{
+    padding: 2.5rem;
+    text-align: center;
+}
+
+ion-button{
+    height: 3rem;
+    --background: #DC1C13;
+    --background-hover: #F1959B;
+    --background-activated: #EA4C46;
+    --background-focused: #F6BDC0;
+  
+    --color: #fff;
+  
+    --border-color: #fff;
+    --border-style: solid;
+    --border-width: 1px;
+  
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+}
