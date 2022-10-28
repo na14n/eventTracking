@@ -8,9 +8,14 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'menu',
+    redirectTo: 'login',
     pathMatch: 'full'
   },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+  },
+
   // {
   //   path: 'bookmark',
   //   loadChildren: () => import('./bookmark/bookmark.module').then( m => m.BookmarkPageModule)

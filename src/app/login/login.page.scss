@@ -1,0 +1,54 @@
+.box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.box ion-input{
+    width: 100%;
+    padding-right: 1rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    background: rgba(0, 0, 0, 0.037);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 2px #aaaaaa;
+    text-align: center;
+}
+
+.box ion-label{
+    left: 2rem;
+    padding: 0.5rem;
+    font-size: 1rem; 
+    text-decoration: none;   
+}
+
+.logoholder{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+ion-icon{
+    font-size: 256px;
+    color: #DC1C13 ;
+}
+
+.buttonholder{
+    margin-top: 2.5rem;
+}
+
+ion-button{
+    height: 3rem;
+    --background: #DC1C13;
+    --background-hover: #F1959B;
+    --background-activated: #EA4C46;
+    --background-focused: #F6BDC0;
+  
+    --color: #fff;
+  
+    --border-color: #fff;
+    --border-style: solid;
+    --border-width: 1px;
+  
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+}
