@@ -7,6 +7,11 @@ const routes: Routes = [
   {
     path: '',
     component: HistoryPage
+  },
+  {
+    path:'logIn',
+    loadChildren: () => import('../login/login.module').then( m => m.LoginPageModule),
+    pathMatch: 'full'
   }
 ];
 
