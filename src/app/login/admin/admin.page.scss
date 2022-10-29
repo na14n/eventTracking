@@ -6,12 +6,6 @@
     font-size: 32px;
 }
 
-.greetholder{
-    display: flex;
-    flex-direction: column;
-    margin-top: 2rem;
-    align-content: flex-end;
-}
 .greet{
     font-size: 2rem;
     font-weight: 700;
@@ -22,37 +16,21 @@
     color: var(--ion-color-primary);
 }
 
-.greeterer{
-    font-size: 0.7rem;
-    font-weight: 600;
-    color: var(--ion-color-primary);
-}
-//Forms part
-
-ion-input{
-    width: 100%;
-    padding-right: 1rem;
-    font-size: 1rem;
-    letter-spacing: 1px;
-}
-
-ion-label{
-    padding: 0.5rem;
-    font-size: 1rem; 
-}
-
-.agree {
-    margin: 0;
-    padding: 0;
+.logoholder{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.logoholder ion-icon{
+    font-size: 256px;
 }
 
 .buttonholder{
-    padding-top: 2.5rem;
-    text-align: center;
-    display: flex;
+    margin-top: 2.5rem;
+    align-content: center;
     justify-content: center;
+    text-align: center;
 }
 
 ion-button{

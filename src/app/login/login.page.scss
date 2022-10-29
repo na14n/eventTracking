@@ -22,15 +22,24 @@
     text-decoration: none;   
 }
 
+.adminlogin{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
 .logoholder{
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
-ion-icon{
+.adminlogin ion-icon{
+    font-size: 32px;
+}
+
+.logoholder ion-icon{
     font-size: 256px;
-    color: #DC1C13 ;
 }
 
 .buttonholder{
@@ -39,12 +48,11 @@ ion-icon{
 
 ion-button{
     height: 3rem;
-    --background: #DC1C13;
-    --background-hover: #F1959B;
-    --background-activated: #EA4C46;
-    --background-focused: #F6BDC0;
+    --background: var(--ion-color-primary-tint);
+    --background: var(--ion-color-secondary);
+    --background: var(--ion-color-primary);
   
-    --color: #fff;
+    --color: var(--ion-color-light);
   
     --border-color: #fff;
     --border-style: solid;
@@ -52,3 +60,4 @@ ion-button{
   
     --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
 }
+
