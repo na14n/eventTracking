@@ -6,6 +6,11 @@ const routes: Routes = [
   {
     path: '',
     component: HomePage,
+  },
+  {
+    path:'logIn',
+    loadChildren: () => import('../login/login.module').then( m => m.LoginPageModule),
+    pathMatch: 'full'
   }
 ];
 

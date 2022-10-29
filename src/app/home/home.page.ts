@@ -14,12 +14,6 @@ export class HomePage {
       eventTime: '08:00 AM',
       eventHost: 'PLV Red Cross Youth'
     },
-    {
-      eventName: 'Sambayanang Sanduguan 2022',
-      eventDate: 'November 18, 2022',
-      eventTime: '10:00 AM',
-      eventHost: 'Dugo Inc.'
-    },
   ]
 
   today : number = Date.now()
