@@ -42,13 +42,13 @@
       <ion-col size="12">
 
         <ion-card *ngFor="let item of eventList">
-          <ion-card-header>
-            <ion-card-subtitle>{{item.eventDate}} at {{item.eventTime}}</ion-card-subtitle>
-            <ion-card-title>{{item.eventName}}</ion-card-title>
-          </ion-card-header>
-        <ion-card-content>{{item.eventHost}}</ion-card-content>
+                  <ion-card-header>
+                    <ion-card-subtitle>{{item.eventDate}} at {{item.eventTime}}</ion-card-subtitle>
+                    <ion-card-title>{{item.eventName}}</ion-card-title>
+                  </ion-card-header>
+                  <ion-card-content>{{item.eventHost}}</ion-card-content>
+                  <ion-button fill="clear" routerLink="details">Check for more details</ion-button>
         </ion-card>
-
       </ion-col>
     </ion-row>
   </ion-grid>
